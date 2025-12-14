@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="shortcout icon" href="./src/Icons/icons8-mantarraya-100.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Mi blog modulo 2</title>
+    <style>
+        li{
+            color:#124559 !important;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header class="mi-clase">
+        <h1 class="ubuntu-light">Bienvenidos a mi blog</h1>
+        <nav class="mi-clase">
+            <a href="inicio">Inicio</a>
+            <a href="sobre-mi">Acerca de</a>
+            <a href="contactame">Contacto</a>
+        </nav>
+    </header>
+    <main id="Inicio" class="start">
+        <section>
+            <h2>Mi nombre es Alfredo Gutierrez</h2>
+            <p>Soy el <em> alumno </em> mas feliz de <strong> DevF </strong></p>
+            <img src="./src/imagenes/IMG_0252.jpeg" alt="Fotografia del alumno Alfredo Gutierrez">
+        </section>
+    </main>
+    <div id="sobre-mi" class="mi-clase">
+        <h2 class="mi-clase">Sobre mi</h2>
+        <p>Me encanta aprender de desarrollo web en Devf y en mis tiempos libres me dedico a mi y trabajo brindando soporte.</p>
+        <br>
+        <p>Mis colores favoritos son:</p>
+        <ul>
+            <li id="mi-id">El amarillo</li>
+            <li>Azul marino</li>
+            <li>Beige</li>
+            <li>Negro</li>
+
+        </ul>
+        <p>Mis reedes sociales son: </p>
+        <ol>
+            <li>Intagram: <a href="https://www.instagram.com/alfredoage/">Alfredoage <span>👀</span></a></li>
+        </ol>
+    </div>
+
+    <div>
+        <ul>
+            <li style="color: #6f1d1b;">Ejemplos de display</li>
+            <li><a href="box-model-demo">Demo: box model</a></li>
+            <li><a href="box-sizing-demo">Demo: box sizing</a></li>
+        </ul>
+    </div>
+    <div id="contactame">
+
+    </div>
+    <form action="#" method="post">
+        <h2>Contactame </h2>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="email">Correo electronico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <section id="box-model-demo">
+        <h2>Demo: box model</h2>
+        <div class="box-demo">
+            Soy una caja de ejemplo
+        </div>
+    </section>
+
+    <section id="box-sizing-demo">
+        <h2>Demo: Box sizing</h2>
+        <div class="box-cb">
+            Content-box por defecto
+        </div>
+        <div class="box-bb">
+            Border-box 
+        </div>
+    </section>
+    <!--Seccion de ejemplos de display-->
+    <section id="ejemplos-display">
+        <h2>Ejemplos de display</h2>
+
+        <h3>display: block</h3>
+        <p>La cajas utilizan todo el ancho disponible y se colocan una debajo de la otra:</p>
+        <div class="caja caja-block">Caja BLOCK 1</div>
+        <div class="caja caja-block">Caja BLOCK 2</div>
+
+        <h3>display: inline</h3>
+        <p>La cajas inline se comportan como texto: se ponen una junto a la otra y no respetan width/height:</p>
+        <p>
+            Texto normal
+            <span class="caja caja-inline">INLINE 1</span>
+            mas texto
+            <span class="caja caja-inline">INLINE 2</span>
+            y mas texto 
+            <span class="caja caja-inline">INLINE 3</span>
+        </p>
+        <h3>display: inline-block</h3>
+        <p>La cajas inline-block se alinean una junto a la otra, pero si respetan width y height:</p>
+        <div class="contenedor-inline-block">
+            <div class="caja caja-inline.block">INLINE-BLOCK 1</div>
+            <div class="caja caja-inline-block">INLINE-BLOCK 2</div>
+            <div class="caja caja-inline-block">INLINE-BLOCK 3</div>
+        </div>
+        </section>
+
+    <footer>
+        <p>2025 Mi blog. Todos los derechos reservados</p>
+    </footer>
+</head>
+<body>
+    
+</body>
+</html>
